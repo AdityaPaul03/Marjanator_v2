@@ -1,0 +1,8 @@
+prefix=/home/aditya/Desktop/ROS/Marjanator/devel
+
+Name: Marjanator_description
+Description: Description of Marjanator_description
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

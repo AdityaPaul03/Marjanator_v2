@@ -1,0 +1,682 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/aditya/miniconda3/envs/ros_env/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      The system is: Linux - 6.2.0-36-generic - aarch64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/aditya/miniconda3/envs/ros_env/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/aditya/miniconda3/envs/ros_env/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/aditya/miniconda3/envs/ros_env/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /home/aditya/miniconda3/envs/ros_env/bin/aarch64-conda-linux-gnu-cc 
+      Build flags: -ftree-vectorize;-fPIC;-fstack-protector-strong;-fno-plt;-O3;-pipe;-isystem;/home/aditya/miniconda3/envs/ros_env/include
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/aditya/Desktop/ROS/Marjanator/build/CMakeFiles/3.26.3/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/aditya/miniconda3/envs/ros_env/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/aditya/miniconda3/envs/ros_env/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/aditya/miniconda3/envs/ros_env/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /home/aditya/miniconda3/envs/ros_env/bin/aarch64-conda-linux-gnu-c++ 
+      Build flags: -fvisibility-inlines-hidden;-fmessage-length=0;-ftree-vectorize;-fPIC;-fstack-protector-strong;-fno-plt;-O3;-pipe;-isystem;/home/aditya/miniconda3/envs/ros_env/include
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/aditya/Desktop/ROS/Marjanator/build/CMakeFiles/3.26.3/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/aditya/miniconda3/envs/ros_env/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/home/aditya/miniconda3/envs/ros_env/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/aditya/Desktop/ROS/Marjanator/build/CMakeFiles/CMakeScratch/TryCompile-vdZUNe"
+      binary: "/home/aditya/Desktop/ROS/Marjanator/build/CMakeFiles/CMakeScratch/TryCompile-vdZUNe"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O3 -pipe -isystem /home/aditya/miniconda3/envs/ros_env/include"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /home/aditya/Desktop/ROS/Marjanator/build/CMakeFiles/CMakeScratch/TryCompile-vdZUNe
+        
+        Run Build Command(s):/home/aditya/miniconda3/envs/ros_env/bin/cmake -E env VERBOSE=1 /home/aditya/miniconda3/envs/ros_env/bin/make -f Makefile cmTC_b54bb/fast && /home/aditya/miniconda3/envs/ros_env/bin/make  -f CMakeFiles/cmTC_b54bb.dir/build.make CMakeFiles/cmTC_b54bb.dir/build
+        make[1]: Entering directory '/home/aditya/Desktop/ROS/Marjanator/build/CMakeFiles/CMakeScratch/TryCompile-vdZUNe'
+        Building C object CMakeFiles/cmTC_b54bb.dir/CMakeCCompilerABI.c.o
+        /home/aditya/miniconda3/envs/ros_env/bin/aarch64-conda-linux-gnu-cc   -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O3 -pipe -isystem /home/aditya/miniconda3/envs/ros_env/include    -v -o CMakeFiles/cmTC_b54bb.dir/CMakeCCompilerABI.c.o -c /home/aditya/miniconda3/envs/ros_env/share/cmake-3.26/Modules/CMakeCCompilerABI.c
+        Reading specs from /home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/specs
+        could not find specs file conda.specs
+        COLLECT_GCC=/home/aditya/miniconda3/envs/ros_env/bin/aarch64-conda-linux-gnu-cc
+        Target: aarch64-conda-linux-gnu
+        Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1695216646381/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1695216646381/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1695216646381/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1695216646381/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=aarch64-conda-linux-gnu --target=aarch64-conda-linux-gnu --enable-default-pie --enable-languages=c,c++,fortran,objc,obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1695216646381/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/aarch64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1695216646381/_build_env/aarch64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1695216646381/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/aarch64-conda-linux-gnu/include/c++/12.3.0 --with-pkgversion='conda-forge gcc 12.3.0-2' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 12.3.0 (conda-forge gcc 12.3.0-2) 
+        COLLECT_GCC_OPTIONS='-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O3' '-pipe' '-isystem' '/home/aditya/miniconda3/envs/ros_env/include' '-v' '-o' 'CMakeFiles/cmTC_b54bb.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_b54bb.dir/'
+         /home/aditya/miniconda3/envs/ros_env/bin/../libexec/gcc/aarch64-conda-linux-gnu/12.3.0/cc1 -quiet -v -iprefix /home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/ -isysroot /home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot -isystem /home/aditya/miniconda3/envs/ros_env/include /home/aditya/miniconda3/envs/ros_env/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_b54bb.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mlittle-endian -mabi=lp64 -O3 -version -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -o - |
+         /home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/../../../../aarch64-conda-linux-gnu/bin/as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_b54bb.dir/CMakeCCompilerABI.c.o
+        GNU assembler version 2.40 (aarch64-conda-linux-gnu) using BFD version (GNU Binutils) 2.40
+        GNU C17 (conda-forge gcc 12.3.0-2) version 12.3.0 (aarch64-conda-linux-gnu)
+        	compiled by GNU C version 12.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/../../lib/gcc/aarch64-conda-linux-gnu/12.3.0/include"
+        ignoring nonexistent directory "/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/usr/local/include"
+        ignoring duplicate directory "/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/../../lib/gcc/aarch64-conda-linux-gnu/12.3.0/include-fixed"
+        ignoring duplicate directory "/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/../../lib/gcc/aarch64-conda-linux-gnu/12.3.0/../../../../aarch64-conda-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /home/aditya/miniconda3/envs/ros_env/include
+         /home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/include
+         /home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/include-fixed
+         /home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/../../../../aarch64-conda-linux-gnu/include
+         /home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/usr/include
+        End of search list.
+        GNU C17 (conda-forge gcc 12.3.0-2) version 12.3.0 (aarch64-conda-linux-gnu)
+        	compiled by GNU C version 12.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: fb77837b1b3db0bf67c14a4718afb1b8
+        COMPILER_PATH=/home/aditya/miniconda3/envs/ros_env/bin/../libexec/gcc/aarch64-conda-linux-gnu/12.3.0/:/home/aditya/miniconda3/envs/ros_env/bin/../libexec/gcc/:/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/../../../../aarch64-conda-linux-gnu/bin/
+        LIBRARY_PATH=/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/:/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/:/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/../../../../aarch64-conda-linux-gnu/lib/../lib/:/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/lib/../lib/:/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/../../../../aarch64-conda-linux-gnu/lib/:/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/lib/:/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/usr/lib/
+        COLLECT_GCC_OPTIONS='-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O3' '-pipe' '-isystem' '/home/aditya/miniconda3/envs/ros_env/include' '-v' '-o' 'CMakeFiles/cmTC_b54bb.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_b54bb.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_b54bb
+        /home/aditya/miniconda3/envs/ros_env/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b54bb.dir/link.txt --verbose=1
+        /home/aditya/miniconda3/envs/ros_env/bin/aarch64-conda-linux-gnu-cc -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O3 -pipe -isystem /home/aditya/miniconda3/envs/ros_env/include  -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--allow-shlib-undefined -Wl,-rpath,/home/aditya/miniconda3/envs/ros_env/lib -Wl,-rpath-link,/home/aditya/miniconda3/envs/ros_env/lib -L/home/aditya/miniconda3/envs/ros_env/lib -v -rdynamic CMakeFiles/cmTC_b54bb.dir/CMakeCCompilerABI.c.o -o cmTC_b54bb 
+        Reading specs from /home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/specs
+        could not find specs file conda.specs
+        COLLECT_GCC=/home/aditya/miniconda3/envs/ros_env/bin/aarch64-conda-linux-gnu-cc
+        COLLECT_LTO_WRAPPER=/home/aditya/miniconda3/envs/ros_env/bin/../libexec/gcc/aarch64-conda-linux-gnu/12.3.0/lto-wrapper
+        Target: aarch64-conda-linux-gnu
+        Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1695216646381/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1695216646381/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1695216646381/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1695216646381/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=aarch64-conda-linux-gnu --target=aarch64-conda-linux-gnu --enable-default-pie --enable-languages=c,c++,fortran,objc,obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1695216646381/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/aarch64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1695216646381/_build_env/aarch64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1695216646381/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/aarch64-conda-linux-gnu/include/c++/12.3.0 --with-pkgversion='conda-forge gcc 12.3.0-2' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 12.3.0 (conda-forge gcc 12.3.0-2) 
+        COMPILER_PATH=/home/aditya/miniconda3/envs/ros_env/bin/../libexec/gcc/aarch64-conda-linux-gnu/12.3.0/:/home/aditya/miniconda3/envs/ros_env/bin/../libexec/gcc/:/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/../../../../aarch64-conda-linux-gnu/bin/
+        LIBRARY_PATH=/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/:/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/:/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/../../../../aarch64-conda-linux-gnu/lib/../lib/:/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/lib/../lib/:/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/../../../../aarch64-conda-linux-gnu/lib/:/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/lib/:/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/usr/lib/
+        COLLECT_GCC_OPTIONS='-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O3' '-pipe' '-isystem' '/home/aditya/miniconda3/envs/ros_env/include' '-L/home/aditya/miniconda3/envs/ros_env/lib' '-v' '-rdynamic' '-o' 'cmTC_b54bb' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_b54bb.'
+         /home/aditya/miniconda3/envs/ros_env/bin/../libexec/gcc/aarch64-conda-linux-gnu/12.3.0/collect2 -plugin /home/aditya/miniconda3/envs/ros_env/bin/../libexec/gcc/aarch64-conda-linux-gnu/12.3.0/liblto_plugin.so -plugin-opt=/home/aditya/miniconda3/envs/ros_env/bin/../libexec/gcc/aarch64-conda-linux-gnu/12.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccn3UaWw.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -pie -o cmTC_b54bb /home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/crtbeginS.o -L/home/aditya/miniconda3/envs/ros_env/lib -L/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0 -L/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc -L/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/../../../../aarch64-conda-linux-gnu/lib/../lib -L/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/lib/../lib -L/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/../../../../aarch64-conda-linux-gnu/lib -L/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/lib -L/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/usr/lib -O2 --sort-common --as-needed -z relro -z now --allow-shlib-undefined -rpath /home/aditya/miniconda3/envs/ros_env/lib -rpath-link /home/aditya/miniconda3/envs/ros_env/lib CMakeFiles/cmTC_b54bb.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/crtendS.o /home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/aditya/miniconda3/envs/ros_env/lib
+        COLLECT_GCC_OPTIONS='-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O3' '-pipe' '-isystem' '/home/aditya/miniconda3/envs/ros_env/include' '-L/home/aditya/miniconda3/envs/ros_env/lib' '-v' '-rdynamic' '-o' 'cmTC_b54bb' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_b54bb.'
+        make[1]: Leaving directory '/home/aditya/Desktop/ROS/Marjanator/build/CMakeFiles/CMakeScratch/TryCompile-vdZUNe'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/aditya/miniconda3/envs/ros_env/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/home/aditya/miniconda3/envs/ros_env/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/home/aditya/miniconda3/envs/ros_env/include]
+          add: [/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/include]
+          add: [/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/include-fixed]
+          add: [/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/../../../../aarch64-conda-linux-gnu/include]
+          add: [/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/usr/include]
+        end of search list found
+        collapse include dir [/home/aditya/miniconda3/envs/ros_env/include] ==> [/home/aditya/miniconda3/envs/ros_env/include]
+        collapse include dir [/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/include] ==> [/home/aditya/miniconda3/envs/ros_env/lib/gcc/aarch64-conda-linux-gnu/12.3.0/include]
+        collapse include dir [/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/include-fixed] ==> [/home/aditya/miniconda3/envs/ros_env/lib/gcc/aarch64-conda-linux-gnu/12.3.0/include-fixed]
+        collapse include dir [/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/../../../../aarch64-conda-linux-gnu/include] ==> [/home/aditya/miniconda3/envs/ros_env/aarch64-conda-linux-gnu/include]
+        collapse include dir [/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/usr/include] ==> [/home/aditya/miniconda3/envs/ros_env/aarch64-conda-linux-gnu/sysroot/usr/include]
+        implicit include dirs: [/home/aditya/miniconda3/envs/ros_env/include;/home/aditya/miniconda3/envs/ros_env/lib/gcc/aarch64-conda-linux-gnu/12.3.0/include;/home/aditya/miniconda3/envs/ros_env/lib/gcc/aarch64-conda-linux-gnu/12.3.0/include-fixed;/home/aditya/miniconda3/envs/ros_env/aarch64-conda-linux-gnu/include;/home/aditya/miniconda3/envs/ros_env/aarch64-conda-linux-gnu/sysroot/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/aditya/miniconda3/envs/ros_env/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/home/aditya/miniconda3/envs/ros_env/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(aarch64-conda-linux-gnu-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: /home/aditya/Desktop/ROS/Marjanator/build/CMakeFiles/CMakeScratch/TryCompile-vdZUNe]
+        ignore line: []
+        ignore line: [Run Build Command(s):/home/aditya/miniconda3/envs/ros_env/bin/cmake -E env VERBOSE=1 /home/aditya/miniconda3/envs/ros_env/bin/make -f Makefile cmTC_b54bb/fast && /home/aditya/miniconda3/envs/ros_env/bin/make  -f CMakeFiles/cmTC_b54bb.dir/build.make CMakeFiles/cmTC_b54bb.dir/build]
+        ignore line: [make[1]: Entering directory '/home/aditya/Desktop/ROS/Marjanator/build/CMakeFiles/CMakeScratch/TryCompile-vdZUNe']
+        ignore line: [Building C object CMakeFiles/cmTC_b54bb.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/home/aditya/miniconda3/envs/ros_env/bin/aarch64-conda-linux-gnu-cc   -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O3 -pipe -isystem /home/aditya/miniconda3/envs/ros_env/include    -v -o CMakeFiles/cmTC_b54bb.dir/CMakeCCompilerABI.c.o -c /home/aditya/miniconda3/envs/ros_env/share/cmake-3.26/Modules/CMakeCCompilerABI.c]
+        ignore line: [Reading specs from /home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/specs]
+        ignore line: [could not find specs file conda.specs]
+        ignore line: [COLLECT_GCC=/home/aditya/miniconda3/envs/ros_env/bin/aarch64-conda-linux-gnu-cc]
+        ignore line: [Target: aarch64-conda-linux-gnu]
+        ignore line: [Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1695216646381/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1695216646381/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1695216646381/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1695216646381/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=aarch64-conda-linux-gnu --target=aarch64-conda-linux-gnu --enable-default-pie --enable-languages=c c++ fortran objc obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1695216646381/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/aarch64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1695216646381/_build_env/aarch64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1695216646381/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/aarch64-conda-linux-gnu/include/c++/12.3.0 --with-pkgversion='conda-forge gcc 12.3.0-2' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 12.3.0 (conda-forge gcc 12.3.0-2) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O3' '-pipe' '-isystem' '/home/aditya/miniconda3/envs/ros_env/include' '-v' '-o' 'CMakeFiles/cmTC_b54bb.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_b54bb.dir/']
+        ignore line: [ /home/aditya/miniconda3/envs/ros_env/bin/../libexec/gcc/aarch64-conda-linux-gnu/12.3.0/cc1 -quiet -v -iprefix /home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/ -isysroot /home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot -isystem /home/aditya/miniconda3/envs/ros_env/include /home/aditya/miniconda3/envs/ros_env/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_b54bb.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mlittle-endian -mabi=lp64 -O3 -version -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -o - |]
+        ignore line: [ /home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/../../../../aarch64-conda-linux-gnu/bin/as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_b54bb.dir/CMakeCCompilerABI.c.o]
+        ignore line: [GNU assembler version 2.40 (aarch64-conda-linux-gnu) using BFD version (GNU Binutils) 2.40]
+        ignore line: [GNU C17 (conda-forge gcc 12.3.0-2) version 12.3.0 (aarch64-conda-linux-gnu)]
+        ignore line: [	compiled by GNU C version 12.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/../../lib/gcc/aarch64-conda-linux-gnu/12.3.0/include"]
+        ignore line: [ignoring nonexistent directory "/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/usr/local/include"]
+        ignore line: [ignoring duplicate directory "/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/../../lib/gcc/aarch64-conda-linux-gnu/12.3.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/../../lib/gcc/aarch64-conda-linux-gnu/12.3.0/../../../../aarch64-conda-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /home/aditya/miniconda3/envs/ros_env/include]
+        ignore line: [ /home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/include]
+        ignore line: [ /home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/include-fixed]
+        ignore line: [ /home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/../../../../aarch64-conda-linux-gnu/include]
+        ignore line: [ /home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C17 (conda-forge gcc 12.3.0-2) version 12.3.0 (aarch64-conda-linux-gnu)]
+        ignore line: [	compiled by GNU C version 12.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: fb77837b1b3db0bf67c14a4718afb1b8]
+        ignore line: [COMPILER_PATH=/home/aditya/miniconda3/envs/ros_env/bin/../libexec/gcc/aarch64-conda-linux-gnu/12.3.0/:/home/aditya/miniconda3/envs/ros_env/bin/../libexec/gcc/:/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/../../../../aarch64-conda-linux-gnu/bin/]
+        ignore line: [LIBRARY_PATH=/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/:/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/:/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/../../../../aarch64-conda-linux-gnu/lib/../lib/:/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/lib/../lib/:/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/../../../../aarch64-conda-linux-gnu/lib/:/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/lib/:/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O3' '-pipe' '-isystem' '/home/aditya/miniconda3/envs/ros_env/include' '-v' '-o' 'CMakeFiles/cmTC_b54bb.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_b54bb.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_b54bb]
+        ignore line: [/home/aditya/miniconda3/envs/ros_env/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b54bb.dir/link.txt --verbose=1]
+        ignore line: [/home/aditya/miniconda3/envs/ros_env/bin/aarch64-conda-linux-gnu-cc -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O3 -pipe -isystem /home/aditya/miniconda3/envs/ros_env/include  -Wl -O2 -Wl --sort-common -Wl --as-needed -Wl -z relro -Wl -z now -Wl --allow-shlib-undefined -Wl -rpath /home/aditya/miniconda3/envs/ros_env/lib -Wl -rpath-link /home/aditya/miniconda3/envs/ros_env/lib -L/home/aditya/miniconda3/envs/ros_env/lib -v -rdynamic CMakeFiles/cmTC_b54bb.dir/CMakeCCompilerABI.c.o -o cmTC_b54bb ]
+        ignore line: [Reading specs from /home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/specs]
+        ignore line: [could not find specs file conda.specs]
+        ignore line: [COLLECT_GCC=/home/aditya/miniconda3/envs/ros_env/bin/aarch64-conda-linux-gnu-cc]
+        ignore line: [COLLECT_LTO_WRAPPER=/home/aditya/miniconda3/envs/ros_env/bin/../libexec/gcc/aarch64-conda-linux-gnu/12.3.0/lto-wrapper]
+        ignore line: [Target: aarch64-conda-linux-gnu]
+        ignore line: [Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1695216646381/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1695216646381/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1695216646381/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1695216646381/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=aarch64-conda-linux-gnu --target=aarch64-conda-linux-gnu --enable-default-pie --enable-languages=c c++ fortran objc obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1695216646381/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/aarch64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1695216646381/_build_env/aarch64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1695216646381/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/aarch64-conda-linux-gnu/include/c++/12.3.0 --with-pkgversion='conda-forge gcc 12.3.0-2' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 12.3.0 (conda-forge gcc 12.3.0-2) ]
+        ignore line: [COMPILER_PATH=/home/aditya/miniconda3/envs/ros_env/bin/../libexec/gcc/aarch64-conda-linux-gnu/12.3.0/:/home/aditya/miniconda3/envs/ros_env/bin/../libexec/gcc/:/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/../../../../aarch64-conda-linux-gnu/bin/]
+        ignore line: [LIBRARY_PATH=/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/:/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/:/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/../../../../aarch64-conda-linux-gnu/lib/../lib/:/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/lib/../lib/:/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/../../../../aarch64-conda-linux-gnu/lib/:/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/lib/:/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O3' '-pipe' '-isystem' '/home/aditya/miniconda3/envs/ros_env/include' '-L/home/aditya/miniconda3/envs/ros_env/lib' '-v' '-rdynamic' '-o' 'cmTC_b54bb' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_b54bb.']
+        link line: [ /home/aditya/miniconda3/envs/ros_env/bin/../libexec/gcc/aarch64-conda-linux-gnu/12.3.0/collect2 -plugin /home/aditya/miniconda3/envs/ros_env/bin/../libexec/gcc/aarch64-conda-linux-gnu/12.3.0/liblto_plugin.so -plugin-opt=/home/aditya/miniconda3/envs/ros_env/bin/../libexec/gcc/aarch64-conda-linux-gnu/12.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccn3UaWw.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -pie -o cmTC_b54bb /home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/crtbeginS.o -L/home/aditya/miniconda3/envs/ros_env/lib -L/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0 -L/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc -L/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/../../../../aarch64-conda-linux-gnu/lib/../lib -L/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/lib/../lib -L/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/../../../../aarch64-conda-linux-gnu/lib -L/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/lib -L/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/usr/lib -O2 --sort-common --as-needed -z relro -z now --allow-shlib-undefined -rpath /home/aditya/miniconda3/envs/ros_env/lib -rpath-link /home/aditya/miniconda3/envs/ros_env/lib CMakeFiles/cmTC_b54bb.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/crtendS.o /home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/aditya/miniconda3/envs/ros_env/lib]
+          arg [/home/aditya/miniconda3/envs/ros_env/bin/../libexec/gcc/aarch64-conda-linux-gnu/12.3.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/home/aditya/miniconda3/envs/ros_env/bin/../libexec/gcc/aarch64-conda-linux-gnu/12.3.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/home/aditya/miniconda3/envs/ros_env/bin/../libexec/gcc/aarch64-conda-linux-gnu/12.3.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccn3UaWw.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--sysroot=/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-export-dynamic] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib/ld-linux-aarch64.so.1] ==> ignore
+          arg [-X] ==> ignore
+          arg [-EL] ==> ignore
+          arg [-maarch64linux] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_b54bb] ==> ignore
+          arg [/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o] ==> obj [/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o]
+          arg [/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o] ==> obj [/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o]
+          arg [/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/crtbeginS.o] ==> obj [/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/crtbeginS.o]
+          arg [-L/home/aditya/miniconda3/envs/ros_env/lib] ==> dir [/home/aditya/miniconda3/envs/ros_env/lib]
+          arg [-L/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0] ==> dir [/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0]
+          arg [-L/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc] ==> dir [/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc]
+          arg [-L/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/../../../../aarch64-conda-linux-gnu/lib/../lib] ==> dir [/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/../../../../aarch64-conda-linux-gnu/lib/../lib]
+          arg [-L/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/lib/../lib] ==> dir [/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/lib/../lib]
+          arg [-L/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/usr/lib/../lib] ==> dir [/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/usr/lib/../lib]
+          arg [-L/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/../../../../aarch64-conda-linux-gnu/lib] ==> dir [/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/../../../../aarch64-conda-linux-gnu/lib]
+          arg [-L/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/lib] ==> dir [/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/lib]
+          arg [-L/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/usr/lib] ==> dir [/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/usr/lib]
+          arg [-O2] ==> ignore
+          arg [--sort-common] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-znow] ==> ignore
+          arg [--allow-shlib-undefined] ==> ignore
+          arg [-rpath] ==> ignore
+          arg [/home/aditya/miniconda3/envs/ros_env/lib] ==> ignore
+          arg [-rpath-link] ==> ignore
+          arg [/home/aditya/miniconda3/envs/ros_env/lib] ==> ignore
+          arg [CMakeFiles/cmTC_b54bb.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/crtendS.o] ==> obj [/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/crtendS.o]
+          arg [/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o] ==> obj [/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o]
+          arg [-rpath] ==> ignore
+          arg [/home/aditya/miniconda3/envs/ros_env/lib] ==> ignore
+        collapse obj [/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o] ==> [/home/aditya/miniconda3/envs/ros_env/aarch64-conda-linux-gnu/sysroot/usr/lib/Scrt1.o]
+        collapse obj [/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o] ==> [/home/aditya/miniconda3/envs/ros_env/aarch64-conda-linux-gnu/sysroot/usr/lib/crti.o]
+        collapse obj [/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/crtbeginS.o] ==> [/home/aditya/miniconda3/envs/ros_env/lib/gcc/aarch64-conda-linux-gnu/12.3.0/crtbeginS.o]
+        collapse obj [/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/crtendS.o] ==> [/home/aditya/miniconda3/envs/ros_env/lib/gcc/aarch64-conda-linux-gnu/12.3.0/crtendS.o]
+        collapse obj [/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o] ==> [/home/aditya/miniconda3/envs/ros_env/aarch64-conda-linux-gnu/sysroot/usr/lib/crtn.o]
+        collapse library dir [/home/aditya/miniconda3/envs/ros_env/lib] ==> [/home/aditya/miniconda3/envs/ros_env/lib]
+        collapse library dir [/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0] ==> [/home/aditya/miniconda3/envs/ros_env/lib/gcc/aarch64-conda-linux-gnu/12.3.0]
+        collapse library dir [/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc] ==> [/home/aditya/miniconda3/envs/ros_env/lib/gcc]
+        collapse library dir [/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/../../../../aarch64-conda-linux-gnu/lib/../lib] ==> [/home/aditya/miniconda3/envs/ros_env/aarch64-conda-linux-gnu/lib]
+        collapse library dir [/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/lib/../lib] ==> [/home/aditya/miniconda3/envs/ros_env/aarch64-conda-linux-gnu/sysroot/lib]
+        collapse library dir [/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/usr/lib/../lib] ==> [/home/aditya/miniconda3/envs/ros_env/aarch64-conda-linux-gnu/sysroot/usr/lib]
+        collapse library dir [/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/../../../../aarch64-conda-linux-gnu/lib] ==> [/home/aditya/miniconda3/envs/ros_env/aarch64-conda-linux-gnu/lib]
+        collapse library dir [/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/lib] ==> [/home/aditya/miniconda3/envs/ros_env/aarch64-conda-linux-gnu/sysroot/lib]
+        collapse library dir [/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/usr/lib] ==> [/home/aditya/miniconda3/envs/ros_env/aarch64-conda-linux-gnu/sysroot/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/home/aditya/miniconda3/envs/ros_env/aarch64-conda-linux-gnu/sysroot/usr/lib/Scrt1.o;/home/aditya/miniconda3/envs/ros_env/aarch64-conda-linux-gnu/sysroot/usr/lib/crti.o;/home/aditya/miniconda3/envs/ros_env/lib/gcc/aarch64-conda-linux-gnu/12.3.0/crtbeginS.o;/home/aditya/miniconda3/envs/ros_env/lib/gcc/aarch64-conda-linux-gnu/12.3.0/crtendS.o;/home/aditya/miniconda3/envs/ros_env/aarch64-conda-linux-gnu/sysroot/usr/lib/crtn.o]
+        implicit dirs: [/home/aditya/miniconda3/envs/ros_env/lib;/home/aditya/miniconda3/envs/ros_env/lib/gcc/aarch64-conda-linux-gnu/12.3.0;/home/aditya/miniconda3/envs/ros_env/lib/gcc;/home/aditya/miniconda3/envs/ros_env/aarch64-conda-linux-gnu/lib;/home/aditya/miniconda3/envs/ros_env/aarch64-conda-linux-gnu/sysroot/lib;/home/aditya/miniconda3/envs/ros_env/aarch64-conda-linux-gnu/sysroot/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/aditya/miniconda3/envs/ros_env/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/home/aditya/miniconda3/envs/ros_env/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/aditya/Desktop/ROS/Marjanator/build/CMakeFiles/CMakeScratch/TryCompile-uMqAbp"
+      binary: "/home/aditya/Desktop/ROS/Marjanator/build/CMakeFiles/CMakeScratch/TryCompile-uMqAbp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-fvisibility-inlines-hidden -fmessage-length=0 -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O3 -pipe -isystem /home/aditya/miniconda3/envs/ros_env/include"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /home/aditya/Desktop/ROS/Marjanator/build/CMakeFiles/CMakeScratch/TryCompile-uMqAbp
+        
+        Run Build Command(s):/home/aditya/miniconda3/envs/ros_env/bin/cmake -E env VERBOSE=1 /home/aditya/miniconda3/envs/ros_env/bin/make -f Makefile cmTC_f2f60/fast && /home/aditya/miniconda3/envs/ros_env/bin/make  -f CMakeFiles/cmTC_f2f60.dir/build.make CMakeFiles/cmTC_f2f60.dir/build
+        make[1]: Entering directory '/home/aditya/Desktop/ROS/Marjanator/build/CMakeFiles/CMakeScratch/TryCompile-uMqAbp'
+        Building CXX object CMakeFiles/cmTC_f2f60.dir/CMakeCXXCompilerABI.cpp.o
+        /home/aditya/miniconda3/envs/ros_env/bin/aarch64-conda-linux-gnu-c++   -fvisibility-inlines-hidden -fmessage-length=0 -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O3 -pipe -isystem /home/aditya/miniconda3/envs/ros_env/include    -v -o CMakeFiles/cmTC_f2f60.dir/CMakeCXXCompilerABI.cpp.o -c /home/aditya/miniconda3/envs/ros_env/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp
+        Reading specs from /home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/specs
+        could not find specs file conda.specs
+        COLLECT_GCC=/home/aditya/miniconda3/envs/ros_env/bin/aarch64-conda-linux-gnu-c++
+        Target: aarch64-conda-linux-gnu
+        Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1695216646381/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1695216646381/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1695216646381/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1695216646381/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=aarch64-conda-linux-gnu --target=aarch64-conda-linux-gnu --enable-default-pie --enable-languages=c,c++,fortran,objc,obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1695216646381/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/aarch64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1695216646381/_build_env/aarch64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1695216646381/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/aarch64-conda-linux-gnu/include/c++/12.3.0 --with-pkgversion='conda-forge gcc 12.3.0-2' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 12.3.0 (conda-forge gcc 12.3.0-2) 
+        COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O3' '-pipe' '-isystem' '/home/aditya/miniconda3/envs/ros_env/include' '-v' '-o' 'CMakeFiles/cmTC_f2f60.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_f2f60.dir/'
+         /home/aditya/miniconda3/envs/ros_env/bin/../libexec/gcc/aarch64-conda-linux-gnu/12.3.0/cc1plus -quiet -v -iprefix /home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/ -isysroot /home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot -D_GNU_SOURCE -isystem /home/aditya/miniconda3/envs/ros_env/include /home/aditya/miniconda3/envs/ros_env/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_f2f60.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mlittle-endian -mabi=lp64 -O3 -version -fvisibility-inlines-hidden -fmessage-length=0 -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -o - |
+         /home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/../../../../aarch64-conda-linux-gnu/bin/as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_f2f60.dir/CMakeCXXCompilerABI.cpp.o
+        GNU assembler version 2.40 (aarch64-conda-linux-gnu) using BFD version (GNU Binutils) 2.40
+        GNU C++17 (conda-forge gcc 12.3.0-2) version 12.3.0 (aarch64-conda-linux-gnu)
+        	compiled by GNU C version 12.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/../../lib/gcc/aarch64-conda-linux-gnu/12.3.0/include"
+        ignoring nonexistent directory "/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/usr/local/include"
+        ignoring duplicate directory "/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/../../lib/gcc/aarch64-conda-linux-gnu/12.3.0/include-fixed"
+        ignoring duplicate directory "/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/../../lib/gcc/aarch64-conda-linux-gnu/12.3.0/../../../../aarch64-conda-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /home/aditya/miniconda3/envs/ros_env/include
+         /home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/include
+         /home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/include-fixed
+         /home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/../../../../aarch64-conda-linux-gnu/include
+         /home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/../../aarch64-conda-linux-gnu/include/c++/12.3.0
+         /home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/../../aarch64-conda-linux-gnu/include/c++/12.3.0/aarch64-conda-linux-gnu
+         /home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/../../aarch64-conda-linux-gnu/include/c++/12.3.0/backward
+         /home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/usr/include
+        End of search list.
+        GNU C++17 (conda-forge gcc 12.3.0-2) version 12.3.0 (aarch64-conda-linux-gnu)
+        	compiled by GNU C version 12.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 61a9a3b59cafc247b17d2957a9197ddb
+        COMPILER_PATH=/home/aditya/miniconda3/envs/ros_env/bin/../libexec/gcc/aarch64-conda-linux-gnu/12.3.0/:/home/aditya/miniconda3/envs/ros_env/bin/../libexec/gcc/:/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/../../../../aarch64-conda-linux-gnu/bin/
+        LIBRARY_PATH=/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/:/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/:/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/../../../../aarch64-conda-linux-gnu/lib/../lib/:/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/lib/../lib/:/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/../../../../aarch64-conda-linux-gnu/lib/:/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/lib/:/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/usr/lib/
+        COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O3' '-pipe' '-isystem' '/home/aditya/miniconda3/envs/ros_env/include' '-v' '-o' 'CMakeFiles/cmTC_f2f60.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_f2f60.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_f2f60
+        /home/aditya/miniconda3/envs/ros_env/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2f60.dir/link.txt --verbose=1
+        /home/aditya/miniconda3/envs/ros_env/bin/aarch64-conda-linux-gnu-c++ -fvisibility-inlines-hidden -fmessage-length=0 -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O3 -pipe -isystem /home/aditya/miniconda3/envs/ros_env/include  -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--allow-shlib-undefined -Wl,-rpath,/home/aditya/miniconda3/envs/ros_env/lib -Wl,-rpath-link,/home/aditya/miniconda3/envs/ros_env/lib -L/home/aditya/miniconda3/envs/ros_env/lib -v -rdynamic CMakeFiles/cmTC_f2f60.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_f2f60 
+        Reading specs from /home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/specs
+        could not find specs file conda.specs
+        COLLECT_GCC=/home/aditya/miniconda3/envs/ros_env/bin/aarch64-conda-linux-gnu-c++
+        COLLECT_LTO_WRAPPER=/home/aditya/miniconda3/envs/ros_env/bin/../libexec/gcc/aarch64-conda-linux-gnu/12.3.0/lto-wrapper
+        Target: aarch64-conda-linux-gnu
+        Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1695216646381/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1695216646381/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1695216646381/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1695216646381/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=aarch64-conda-linux-gnu --target=aarch64-conda-linux-gnu --enable-default-pie --enable-languages=c,c++,fortran,objc,obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1695216646381/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/aarch64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1695216646381/_build_env/aarch64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1695216646381/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/aarch64-conda-linux-gnu/include/c++/12.3.0 --with-pkgversion='conda-forge gcc 12.3.0-2' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 12.3.0 (conda-forge gcc 12.3.0-2) 
+        COMPILER_PATH=/home/aditya/miniconda3/envs/ros_env/bin/../libexec/gcc/aarch64-conda-linux-gnu/12.3.0/:/home/aditya/miniconda3/envs/ros_env/bin/../libexec/gcc/:/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/../../../../aarch64-conda-linux-gnu/bin/
+        LIBRARY_PATH=/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/:/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/:/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/../../../../aarch64-conda-linux-gnu/lib/../lib/:/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/lib/../lib/:/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/../../../../aarch64-conda-linux-gnu/lib/:/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/lib/:/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/usr/lib/
+        COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O3' '-pipe' '-isystem' '/home/aditya/miniconda3/envs/ros_env/include' '-L/home/aditya/miniconda3/envs/ros_env/lib' '-v' '-rdynamic' '-o' 'cmTC_f2f60' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_f2f60.'
+         /home/aditya/miniconda3/envs/ros_env/bin/../libexec/gcc/aarch64-conda-linux-gnu/12.3.0/collect2 -plugin /home/aditya/miniconda3/envs/ros_env/bin/../libexec/gcc/aarch64-conda-linux-gnu/12.3.0/liblto_plugin.so -plugin-opt=/home/aditya/miniconda3/envs/ros_env/bin/../libexec/gcc/aarch64-conda-linux-gnu/12.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccCi4KO6.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -pie -o cmTC_f2f60 /home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/crtbeginS.o -L/home/aditya/miniconda3/envs/ros_env/lib -L/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0 -L/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc -L/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/../../../../aarch64-conda-linux-gnu/lib/../lib -L/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/lib/../lib -L/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/../../../../aarch64-conda-linux-gnu/lib -L/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/lib -L/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/usr/lib -O2 --sort-common --as-needed -z relro -z now --allow-shlib-undefined -rpath /home/aditya/miniconda3/envs/ros_env/lib -rpath-link /home/aditya/miniconda3/envs/ros_env/lib CMakeFiles/cmTC_f2f60.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/crtendS.o /home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/aditya/miniconda3/envs/ros_env/lib
+        COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O3' '-pipe' '-isystem' '/home/aditya/miniconda3/envs/ros_env/include' '-L/home/aditya/miniconda3/envs/ros_env/lib' '-v' '-rdynamic' '-o' 'cmTC_f2f60' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_f2f60.'
+        make[1]: Leaving directory '/home/aditya/Desktop/ROS/Marjanator/build/CMakeFiles/CMakeScratch/TryCompile-uMqAbp'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/aditya/miniconda3/envs/ros_env/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/home/aditya/miniconda3/envs/ros_env/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/home/aditya/miniconda3/envs/ros_env/include]
+          add: [/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/include]
+          add: [/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/include-fixed]
+          add: [/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/../../../../aarch64-conda-linux-gnu/include]
+          add: [/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/../../aarch64-conda-linux-gnu/include/c++/12.3.0]
+          add: [/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/../../aarch64-conda-linux-gnu/include/c++/12.3.0/aarch64-conda-linux-gnu]
+          add: [/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/../../aarch64-conda-linux-gnu/include/c++/12.3.0/backward]
+          add: [/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/usr/include]
+        end of search list found
+        collapse include dir [/home/aditya/miniconda3/envs/ros_env/include] ==> [/home/aditya/miniconda3/envs/ros_env/include]
+        collapse include dir [/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/include] ==> [/home/aditya/miniconda3/envs/ros_env/lib/gcc/aarch64-conda-linux-gnu/12.3.0/include]
+        collapse include dir [/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/include-fixed] ==> [/home/aditya/miniconda3/envs/ros_env/lib/gcc/aarch64-conda-linux-gnu/12.3.0/include-fixed]
+        collapse include dir [/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/../../../../aarch64-conda-linux-gnu/include] ==> [/home/aditya/miniconda3/envs/ros_env/aarch64-conda-linux-gnu/include]
+        collapse include dir [/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/../../aarch64-conda-linux-gnu/include/c++/12.3.0] ==> [/home/aditya/miniconda3/envs/ros_env/aarch64-conda-linux-gnu/include/c++/12.3.0]
+        collapse include dir [/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/../../aarch64-conda-linux-gnu/include/c++/12.3.0/aarch64-conda-linux-gnu] ==> [/home/aditya/miniconda3/envs/ros_env/aarch64-conda-linux-gnu/include/c++/12.3.0/aarch64-conda-linux-gnu]
+        collapse include dir [/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/../../aarch64-conda-linux-gnu/include/c++/12.3.0/backward] ==> [/home/aditya/miniconda3/envs/ros_env/aarch64-conda-linux-gnu/include/c++/12.3.0/backward]
+        collapse include dir [/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/usr/include] ==> [/home/aditya/miniconda3/envs/ros_env/aarch64-conda-linux-gnu/sysroot/usr/include]
+        implicit include dirs: [/home/aditya/miniconda3/envs/ros_env/include;/home/aditya/miniconda3/envs/ros_env/lib/gcc/aarch64-conda-linux-gnu/12.3.0/include;/home/aditya/miniconda3/envs/ros_env/lib/gcc/aarch64-conda-linux-gnu/12.3.0/include-fixed;/home/aditya/miniconda3/envs/ros_env/aarch64-conda-linux-gnu/include;/home/aditya/miniconda3/envs/ros_env/aarch64-conda-linux-gnu/include/c++/12.3.0;/home/aditya/miniconda3/envs/ros_env/aarch64-conda-linux-gnu/include/c++/12.3.0/aarch64-conda-linux-gnu;/home/aditya/miniconda3/envs/ros_env/aarch64-conda-linux-gnu/include/c++/12.3.0/backward;/home/aditya/miniconda3/envs/ros_env/aarch64-conda-linux-gnu/sysroot/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/aditya/miniconda3/envs/ros_env/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/home/aditya/miniconda3/envs/ros_env/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(aarch64-conda-linux-gnu-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: /home/aditya/Desktop/ROS/Marjanator/build/CMakeFiles/CMakeScratch/TryCompile-uMqAbp]
+        ignore line: []
+        ignore line: [Run Build Command(s):/home/aditya/miniconda3/envs/ros_env/bin/cmake -E env VERBOSE=1 /home/aditya/miniconda3/envs/ros_env/bin/make -f Makefile cmTC_f2f60/fast && /home/aditya/miniconda3/envs/ros_env/bin/make  -f CMakeFiles/cmTC_f2f60.dir/build.make CMakeFiles/cmTC_f2f60.dir/build]
+        ignore line: [make[1]: Entering directory '/home/aditya/Desktop/ROS/Marjanator/build/CMakeFiles/CMakeScratch/TryCompile-uMqAbp']
+        ignore line: [Building CXX object CMakeFiles/cmTC_f2f60.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/home/aditya/miniconda3/envs/ros_env/bin/aarch64-conda-linux-gnu-c++   -fvisibility-inlines-hidden -fmessage-length=0 -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O3 -pipe -isystem /home/aditya/miniconda3/envs/ros_env/include    -v -o CMakeFiles/cmTC_f2f60.dir/CMakeCXXCompilerABI.cpp.o -c /home/aditya/miniconda3/envs/ros_env/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Reading specs from /home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/specs]
+        ignore line: [could not find specs file conda.specs]
+        ignore line: [COLLECT_GCC=/home/aditya/miniconda3/envs/ros_env/bin/aarch64-conda-linux-gnu-c++]
+        ignore line: [Target: aarch64-conda-linux-gnu]
+        ignore line: [Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1695216646381/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1695216646381/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1695216646381/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1695216646381/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=aarch64-conda-linux-gnu --target=aarch64-conda-linux-gnu --enable-default-pie --enable-languages=c c++ fortran objc obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1695216646381/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/aarch64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1695216646381/_build_env/aarch64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1695216646381/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/aarch64-conda-linux-gnu/include/c++/12.3.0 --with-pkgversion='conda-forge gcc 12.3.0-2' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 12.3.0 (conda-forge gcc 12.3.0-2) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O3' '-pipe' '-isystem' '/home/aditya/miniconda3/envs/ros_env/include' '-v' '-o' 'CMakeFiles/cmTC_f2f60.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_f2f60.dir/']
+        ignore line: [ /home/aditya/miniconda3/envs/ros_env/bin/../libexec/gcc/aarch64-conda-linux-gnu/12.3.0/cc1plus -quiet -v -iprefix /home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/ -isysroot /home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot -D_GNU_SOURCE -isystem /home/aditya/miniconda3/envs/ros_env/include /home/aditya/miniconda3/envs/ros_env/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_f2f60.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mlittle-endian -mabi=lp64 -O3 -version -fvisibility-inlines-hidden -fmessage-length=0 -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -o - |]
+        ignore line: [ /home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/../../../../aarch64-conda-linux-gnu/bin/as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_f2f60.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [GNU assembler version 2.40 (aarch64-conda-linux-gnu) using BFD version (GNU Binutils) 2.40]
+        ignore line: [GNU C++17 (conda-forge gcc 12.3.0-2) version 12.3.0 (aarch64-conda-linux-gnu)]
+        ignore line: [	compiled by GNU C version 12.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/../../lib/gcc/aarch64-conda-linux-gnu/12.3.0/include"]
+        ignore line: [ignoring nonexistent directory "/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/usr/local/include"]
+        ignore line: [ignoring duplicate directory "/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/../../lib/gcc/aarch64-conda-linux-gnu/12.3.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/../../lib/gcc/aarch64-conda-linux-gnu/12.3.0/../../../../aarch64-conda-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /home/aditya/miniconda3/envs/ros_env/include]
+        ignore line: [ /home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/include]
+        ignore line: [ /home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/include-fixed]
+        ignore line: [ /home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/../../../../aarch64-conda-linux-gnu/include]
+        ignore line: [ /home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/../../aarch64-conda-linux-gnu/include/c++/12.3.0]
+        ignore line: [ /home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/../../aarch64-conda-linux-gnu/include/c++/12.3.0/aarch64-conda-linux-gnu]
+        ignore line: [ /home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/../../aarch64-conda-linux-gnu/include/c++/12.3.0/backward]
+        ignore line: [ /home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++17 (conda-forge gcc 12.3.0-2) version 12.3.0 (aarch64-conda-linux-gnu)]
+        ignore line: [	compiled by GNU C version 12.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 61a9a3b59cafc247b17d2957a9197ddb]
+        ignore line: [COMPILER_PATH=/home/aditya/miniconda3/envs/ros_env/bin/../libexec/gcc/aarch64-conda-linux-gnu/12.3.0/:/home/aditya/miniconda3/envs/ros_env/bin/../libexec/gcc/:/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/../../../../aarch64-conda-linux-gnu/bin/]
+        ignore line: [LIBRARY_PATH=/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/:/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/:/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/../../../../aarch64-conda-linux-gnu/lib/../lib/:/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/lib/../lib/:/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/../../../../aarch64-conda-linux-gnu/lib/:/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/lib/:/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O3' '-pipe' '-isystem' '/home/aditya/miniconda3/envs/ros_env/include' '-v' '-o' 'CMakeFiles/cmTC_f2f60.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_f2f60.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_f2f60]
+        ignore line: [/home/aditya/miniconda3/envs/ros_env/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2f60.dir/link.txt --verbose=1]
+        ignore line: [/home/aditya/miniconda3/envs/ros_env/bin/aarch64-conda-linux-gnu-c++ -fvisibility-inlines-hidden -fmessage-length=0 -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O3 -pipe -isystem /home/aditya/miniconda3/envs/ros_env/include  -Wl -O2 -Wl --sort-common -Wl --as-needed -Wl -z relro -Wl -z now -Wl --allow-shlib-undefined -Wl -rpath /home/aditya/miniconda3/envs/ros_env/lib -Wl -rpath-link /home/aditya/miniconda3/envs/ros_env/lib -L/home/aditya/miniconda3/envs/ros_env/lib -v -rdynamic CMakeFiles/cmTC_f2f60.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_f2f60 ]
+        ignore line: [Reading specs from /home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/specs]
+        ignore line: [could not find specs file conda.specs]
+        ignore line: [COLLECT_GCC=/home/aditya/miniconda3/envs/ros_env/bin/aarch64-conda-linux-gnu-c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/home/aditya/miniconda3/envs/ros_env/bin/../libexec/gcc/aarch64-conda-linux-gnu/12.3.0/lto-wrapper]
+        ignore line: [Target: aarch64-conda-linux-gnu]
+        ignore line: [Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1695216646381/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1695216646381/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1695216646381/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1695216646381/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=aarch64-conda-linux-gnu --target=aarch64-conda-linux-gnu --enable-default-pie --enable-languages=c c++ fortran objc obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1695216646381/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/aarch64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1695216646381/_build_env/aarch64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1695216646381/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/aarch64-conda-linux-gnu/include/c++/12.3.0 --with-pkgversion='conda-forge gcc 12.3.0-2' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 12.3.0 (conda-forge gcc 12.3.0-2) ]
+        ignore line: [COMPILER_PATH=/home/aditya/miniconda3/envs/ros_env/bin/../libexec/gcc/aarch64-conda-linux-gnu/12.3.0/:/home/aditya/miniconda3/envs/ros_env/bin/../libexec/gcc/:/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/../../../../aarch64-conda-linux-gnu/bin/]
+        ignore line: [LIBRARY_PATH=/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/:/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/:/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/../../../../aarch64-conda-linux-gnu/lib/../lib/:/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/lib/../lib/:/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/../../../../aarch64-conda-linux-gnu/lib/:/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/lib/:/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O3' '-pipe' '-isystem' '/home/aditya/miniconda3/envs/ros_env/include' '-L/home/aditya/miniconda3/envs/ros_env/lib' '-v' '-rdynamic' '-o' 'cmTC_f2f60' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_f2f60.']
+        link line: [ /home/aditya/miniconda3/envs/ros_env/bin/../libexec/gcc/aarch64-conda-linux-gnu/12.3.0/collect2 -plugin /home/aditya/miniconda3/envs/ros_env/bin/../libexec/gcc/aarch64-conda-linux-gnu/12.3.0/liblto_plugin.so -plugin-opt=/home/aditya/miniconda3/envs/ros_env/bin/../libexec/gcc/aarch64-conda-linux-gnu/12.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccCi4KO6.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -pie -o cmTC_f2f60 /home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/crtbeginS.o -L/home/aditya/miniconda3/envs/ros_env/lib -L/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0 -L/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc -L/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/../../../../aarch64-conda-linux-gnu/lib/../lib -L/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/lib/../lib -L/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/../../../../aarch64-conda-linux-gnu/lib -L/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/lib -L/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/usr/lib -O2 --sort-common --as-needed -z relro -z now --allow-shlib-undefined -rpath /home/aditya/miniconda3/envs/ros_env/lib -rpath-link /home/aditya/miniconda3/envs/ros_env/lib CMakeFiles/cmTC_f2f60.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/crtendS.o /home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/aditya/miniconda3/envs/ros_env/lib]
+          arg [/home/aditya/miniconda3/envs/ros_env/bin/../libexec/gcc/aarch64-conda-linux-gnu/12.3.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/home/aditya/miniconda3/envs/ros_env/bin/../libexec/gcc/aarch64-conda-linux-gnu/12.3.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/home/aditya/miniconda3/envs/ros_env/bin/../libexec/gcc/aarch64-conda-linux-gnu/12.3.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccCi4KO6.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--sysroot=/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-export-dynamic] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib/ld-linux-aarch64.so.1] ==> ignore
+          arg [-X] ==> ignore
+          arg [-EL] ==> ignore
+          arg [-maarch64linux] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_f2f60] ==> ignore
+          arg [/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o] ==> obj [/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o]
+          arg [/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o] ==> obj [/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o]
+          arg [/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/crtbeginS.o] ==> obj [/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/crtbeginS.o]
+          arg [-L/home/aditya/miniconda3/envs/ros_env/lib] ==> dir [/home/aditya/miniconda3/envs/ros_env/lib]
+          arg [-L/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0] ==> dir [/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0]
+          arg [-L/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc] ==> dir [/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc]
+          arg [-L/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/../../../../aarch64-conda-linux-gnu/lib/../lib] ==> dir [/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/../../../../aarch64-conda-linux-gnu/lib/../lib]
+          arg [-L/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/lib/../lib] ==> dir [/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/lib/../lib]
+          arg [-L/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/usr/lib/../lib] ==> dir [/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/usr/lib/../lib]
+          arg [-L/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/../../../../aarch64-conda-linux-gnu/lib] ==> dir [/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/../../../../aarch64-conda-linux-gnu/lib]
+          arg [-L/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/lib] ==> dir [/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/lib]
+          arg [-L/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/usr/lib] ==> dir [/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/usr/lib]
+          arg [-O2] ==> ignore
+          arg [--sort-common] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-znow] ==> ignore
+          arg [--allow-shlib-undefined] ==> ignore
+          arg [-rpath] ==> ignore
+          arg [/home/aditya/miniconda3/envs/ros_env/lib] ==> ignore
+          arg [-rpath-link] ==> ignore
+          arg [/home/aditya/miniconda3/envs/ros_env/lib] ==> ignore
+          arg [CMakeFiles/cmTC_f2f60.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/crtendS.o] ==> obj [/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/crtendS.o]
+          arg [/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o] ==> obj [/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o]
+          arg [-rpath] ==> ignore
+          arg [/home/aditya/miniconda3/envs/ros_env/lib] ==> ignore
+        collapse obj [/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o] ==> [/home/aditya/miniconda3/envs/ros_env/aarch64-conda-linux-gnu/sysroot/usr/lib/Scrt1.o]
+        collapse obj [/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o] ==> [/home/aditya/miniconda3/envs/ros_env/aarch64-conda-linux-gnu/sysroot/usr/lib/crti.o]
+        collapse obj [/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/crtbeginS.o] ==> [/home/aditya/miniconda3/envs/ros_env/lib/gcc/aarch64-conda-linux-gnu/12.3.0/crtbeginS.o]
+        collapse obj [/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/crtendS.o] ==> [/home/aditya/miniconda3/envs/ros_env/lib/gcc/aarch64-conda-linux-gnu/12.3.0/crtendS.o]
+        collapse obj [/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o] ==> [/home/aditya/miniconda3/envs/ros_env/aarch64-conda-linux-gnu/sysroot/usr/lib/crtn.o]
+        collapse library dir [/home/aditya/miniconda3/envs/ros_env/lib] ==> [/home/aditya/miniconda3/envs/ros_env/lib]
+        collapse library dir [/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0] ==> [/home/aditya/miniconda3/envs/ros_env/lib/gcc/aarch64-conda-linux-gnu/12.3.0]
+        collapse library dir [/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc] ==> [/home/aditya/miniconda3/envs/ros_env/lib/gcc]
+        collapse library dir [/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/../../../../aarch64-conda-linux-gnu/lib/../lib] ==> [/home/aditya/miniconda3/envs/ros_env/aarch64-conda-linux-gnu/lib]
+        collapse library dir [/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/lib/../lib] ==> [/home/aditya/miniconda3/envs/ros_env/aarch64-conda-linux-gnu/sysroot/lib]
+        collapse library dir [/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/usr/lib/../lib] ==> [/home/aditya/miniconda3/envs/ros_env/aarch64-conda-linux-gnu/sysroot/usr/lib]
+        collapse library dir [/home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/../../../../aarch64-conda-linux-gnu/lib] ==> [/home/aditya/miniconda3/envs/ros_env/aarch64-conda-linux-gnu/lib]
+        collapse library dir [/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/lib] ==> [/home/aditya/miniconda3/envs/ros_env/aarch64-conda-linux-gnu/sysroot/lib]
+        collapse library dir [/home/aditya/miniconda3/envs/ros_env/bin/../aarch64-conda-linux-gnu/sysroot/usr/lib] ==> [/home/aditya/miniconda3/envs/ros_env/aarch64-conda-linux-gnu/sysroot/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/home/aditya/miniconda3/envs/ros_env/aarch64-conda-linux-gnu/sysroot/usr/lib/Scrt1.o;/home/aditya/miniconda3/envs/ros_env/aarch64-conda-linux-gnu/sysroot/usr/lib/crti.o;/home/aditya/miniconda3/envs/ros_env/lib/gcc/aarch64-conda-linux-gnu/12.3.0/crtbeginS.o;/home/aditya/miniconda3/envs/ros_env/lib/gcc/aarch64-conda-linux-gnu/12.3.0/crtendS.o;/home/aditya/miniconda3/envs/ros_env/aarch64-conda-linux-gnu/sysroot/usr/lib/crtn.o]
+        implicit dirs: [/home/aditya/miniconda3/envs/ros_env/lib;/home/aditya/miniconda3/envs/ros_env/lib/gcc/aarch64-conda-linux-gnu/12.3.0;/home/aditya/miniconda3/envs/ros_env/lib/gcc;/home/aditya/miniconda3/envs/ros_env/aarch64-conda-linux-gnu/lib;/home/aditya/miniconda3/envs/ros_env/aarch64-conda-linux-gnu/sysroot/lib;/home/aditya/miniconda3/envs/ros_env/aarch64-conda-linux-gnu/sysroot/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/aditya/miniconda3/envs/ros_env/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/home/aditya/miniconda3/envs/ros_env/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "/home/aditya/miniconda3/envs/ros_env/share/cmake-3.26/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/home/aditya/miniconda3/envs/ros_env/share/cmake-3.26/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "/home/aditya/miniconda3/envs/ros_env/share/cmake-3.26/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/home/aditya/miniconda3/envs/ros_env/lib/cmake/GTest/GTestConfig.cmake:29 (find_dependency)"
+      - "/home/aditya/miniconda3/envs/ros_env/share/cmake-3.26/Modules/FindGTest.cmake:194 (find_package)"
+      - "/home/aditya/miniconda3/envs/ros_env/share/catkin/cmake/test/gtest.cmake:340 (find_package)"
+      - "/home/aditya/miniconda3/envs/ros_env/share/catkin/cmake/all.cmake:164 (include)"
+      - "/home/aditya/miniconda3/envs/ros_env/share/catkin/cmake/catkinConfig.cmake:20 (include)"
+      - "CMakeLists.txt:58 (find_package)"
+    directories:
+      source: "/home/aditya/Desktop/ROS/Marjanator/build/CMakeFiles/CMakeScratch/TryCompile-FX9gTb"
+      binary: "/home/aditya/Desktop/ROS/Marjanator/build/CMakeFiles/CMakeScratch/TryCompile-FX9gTb"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O3 -pipe -isystem /home/aditya/miniconda3/envs/ros_env/include"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: /home/aditya/Desktop/ROS/Marjanator/build/CMakeFiles/CMakeScratch/TryCompile-FX9gTb
+        
+        Run Build Command(s):/home/aditya/miniconda3/envs/ros_env/bin/cmake -E env VERBOSE=1 /home/aditya/miniconda3/envs/ros_env/bin/make -f Makefile cmTC_ae117/fast && /home/aditya/miniconda3/envs/ros_env/bin/make  -f CMakeFiles/cmTC_ae117.dir/build.make CMakeFiles/cmTC_ae117.dir/build
+        make[1]: Entering directory '/home/aditya/Desktop/ROS/Marjanator/build/CMakeFiles/CMakeScratch/TryCompile-FX9gTb'
+        Building C object CMakeFiles/cmTC_ae117.dir/src.c.o
+        /home/aditya/miniconda3/envs/ros_env/bin/aarch64-conda-linux-gnu-cc -DCMAKE_HAVE_LIBC_PTHREAD  -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O3 -pipe -isystem /home/aditya/miniconda3/envs/ros_env/include  -o CMakeFiles/cmTC_ae117.dir/src.c.o -c /home/aditya/Desktop/ROS/Marjanator/build/CMakeFiles/CMakeScratch/TryCompile-FX9gTb/src.c
+        Linking C executable cmTC_ae117
+        /home/aditya/miniconda3/envs/ros_env/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae117.dir/link.txt --verbose=1
+        /home/aditya/miniconda3/envs/ros_env/bin/aarch64-conda-linux-gnu-cc -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O3 -pipe -isystem /home/aditya/miniconda3/envs/ros_env/include  -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--allow-shlib-undefined -Wl,-rpath,/home/aditya/miniconda3/envs/ros_env/lib -Wl,-rpath-link,/home/aditya/miniconda3/envs/ros_env/lib -L/home/aditya/miniconda3/envs/ros_env/lib  -rdynamic CMakeFiles/cmTC_ae117.dir/src.c.o -o cmTC_ae117 
+        /home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/../../../../aarch64-conda-linux-gnu/bin/ld: CMakeFiles/cmTC_ae117.dir/src.c.o: in function `main':
+        src.c:(.text.startup+0x0): undefined reference to `pthread_create'
+        /home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/../../../../aarch64-conda-linux-gnu/bin/ld: src.c:(.text.startup+0x4): undefined reference to `pthread_create'
+        /home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/../../../../aarch64-conda-linux-gnu/bin/ld: src.c:(.text.startup+0x3c): undefined reference to `pthread_detach'
+        /home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/../../../../aarch64-conda-linux-gnu/bin/ld: src.c:(.text.startup+0x40): undefined reference to `pthread_detach'
+        /home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/../../../../aarch64-conda-linux-gnu/bin/ld: src.c:(.text.startup+0x4c): undefined reference to `pthread_cancel'
+        /home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/../../../../aarch64-conda-linux-gnu/bin/ld: src.c:(.text.startup+0x50): undefined reference to `pthread_cancel'
+        /home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/../../../../aarch64-conda-linux-gnu/bin/ld: src.c:(.text.startup+0x60): undefined reference to `pthread_join'
+        /home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/../../../../aarch64-conda-linux-gnu/bin/ld: src.c:(.text.startup+0x64): undefined reference to `pthread_join'
+        /home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/../../../../aarch64-conda-linux-gnu/bin/ld: src.c:(.text.startup+0x6c): undefined reference to `pthread_atfork'
+        /home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/../../../../aarch64-conda-linux-gnu/bin/ld: src.c:(.text.startup+0x70): undefined reference to `pthread_atfork'
+        collect2: error: ld returned 1 exit status
+        make[1]: *** [CMakeFiles/cmTC_ae117.dir/build.make:99: cmTC_ae117] Error 1
+        make[1]: Leaving directory '/home/aditya/Desktop/ROS/Marjanator/build/CMakeFiles/CMakeScratch/TryCompile-FX9gTb'
+        make: *** [Makefile:127: cmTC_ae117/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/aditya/miniconda3/envs/ros_env/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "/home/aditya/miniconda3/envs/ros_env/share/cmake-3.26/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "/home/aditya/miniconda3/envs/ros_env/share/cmake-3.26/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "/home/aditya/miniconda3/envs/ros_env/share/cmake-3.26/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/home/aditya/miniconda3/envs/ros_env/lib/cmake/GTest/GTestConfig.cmake:29 (find_dependency)"
+      - "/home/aditya/miniconda3/envs/ros_env/share/cmake-3.26/Modules/FindGTest.cmake:194 (find_package)"
+      - "/home/aditya/miniconda3/envs/ros_env/share/catkin/cmake/test/gtest.cmake:340 (find_package)"
+      - "/home/aditya/miniconda3/envs/ros_env/share/catkin/cmake/all.cmake:164 (include)"
+      - "/home/aditya/miniconda3/envs/ros_env/share/catkin/cmake/catkinConfig.cmake:20 (include)"
+      - "CMakeLists.txt:58 (find_package)"
+    directories:
+      source: "/home/aditya/Desktop/ROS/Marjanator/build/CMakeFiles/CMakeScratch/TryCompile-B80uuz"
+      binary: "/home/aditya/Desktop/ROS/Marjanator/build/CMakeFiles/CMakeScratch/TryCompile-B80uuz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O3 -pipe -isystem /home/aditya/miniconda3/envs/ros_env/include"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: /home/aditya/Desktop/ROS/Marjanator/build/CMakeFiles/CMakeScratch/TryCompile-B80uuz
+        
+        Run Build Command(s):/home/aditya/miniconda3/envs/ros_env/bin/cmake -E env VERBOSE=1 /home/aditya/miniconda3/envs/ros_env/bin/make -f Makefile cmTC_2e881/fast && /home/aditya/miniconda3/envs/ros_env/bin/make  -f CMakeFiles/cmTC_2e881.dir/build.make CMakeFiles/cmTC_2e881.dir/build
+        make[1]: Entering directory '/home/aditya/Desktop/ROS/Marjanator/build/CMakeFiles/CMakeScratch/TryCompile-B80uuz'
+        Building C object CMakeFiles/cmTC_2e881.dir/CheckFunctionExists.c.o
+        /home/aditya/miniconda3/envs/ros_env/bin/aarch64-conda-linux-gnu-cc   -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O3 -pipe -isystem /home/aditya/miniconda3/envs/ros_env/include -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_2e881.dir/CheckFunctionExists.c.o -c /home/aditya/Desktop/ROS/Marjanator/build/CMakeFiles/CMakeScratch/TryCompile-B80uuz/CheckFunctionExists.c
+        Linking C executable cmTC_2e881
+        /home/aditya/miniconda3/envs/ros_env/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2e881.dir/link.txt --verbose=1
+        /home/aditya/miniconda3/envs/ros_env/bin/aarch64-conda-linux-gnu-cc -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O3 -pipe -isystem /home/aditya/miniconda3/envs/ros_env/include -DCHECK_FUNCTION_EXISTS=pthread_create -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--allow-shlib-undefined -Wl,-rpath,/home/aditya/miniconda3/envs/ros_env/lib -Wl,-rpath-link,/home/aditya/miniconda3/envs/ros_env/lib -L/home/aditya/miniconda3/envs/ros_env/lib  -rdynamic CMakeFiles/cmTC_2e881.dir/CheckFunctionExists.c.o -o cmTC_2e881  -lpthreads 
+        /home/aditya/miniconda3/envs/ros_env/bin/../lib/gcc/aarch64-conda-linux-gnu/12.3.0/../../../../aarch64-conda-linux-gnu/bin/ld: cannot find -lpthreads: No such file or directory
+        collect2: error: ld returned 1 exit status
+        make[1]: *** [CMakeFiles/cmTC_2e881.dir/build.make:99: cmTC_2e881] Error 1
+        make[1]: Leaving directory '/home/aditya/Desktop/ROS/Marjanator/build/CMakeFiles/CMakeScratch/TryCompile-B80uuz'
+        make: *** [Makefile:127: cmTC_2e881/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/aditya/miniconda3/envs/ros_env/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "/home/aditya/miniconda3/envs/ros_env/share/cmake-3.26/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "/home/aditya/miniconda3/envs/ros_env/share/cmake-3.26/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "/home/aditya/miniconda3/envs/ros_env/share/cmake-3.26/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/home/aditya/miniconda3/envs/ros_env/lib/cmake/GTest/GTestConfig.cmake:29 (find_dependency)"
+      - "/home/aditya/miniconda3/envs/ros_env/share/cmake-3.26/Modules/FindGTest.cmake:194 (find_package)"
+      - "/home/aditya/miniconda3/envs/ros_env/share/catkin/cmake/test/gtest.cmake:340 (find_package)"
+      - "/home/aditya/miniconda3/envs/ros_env/share/catkin/cmake/all.cmake:164 (include)"
+      - "/home/aditya/miniconda3/envs/ros_env/share/catkin/cmake/catkinConfig.cmake:20 (include)"
+      - "CMakeLists.txt:58 (find_package)"
+    directories:
+      source: "/home/aditya/Desktop/ROS/Marjanator/build/CMakeFiles/CMakeScratch/TryCompile-nLUYUg"
+      binary: "/home/aditya/Desktop/ROS/Marjanator/build/CMakeFiles/CMakeScratch/TryCompile-nLUYUg"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O3 -pipe -isystem /home/aditya/miniconda3/envs/ros_env/include"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: /home/aditya/Desktop/ROS/Marjanator/build/CMakeFiles/CMakeScratch/TryCompile-nLUYUg
+        
+        Run Build Command(s):/home/aditya/miniconda3/envs/ros_env/bin/cmake -E env VERBOSE=1 /home/aditya/miniconda3/envs/ros_env/bin/make -f Makefile cmTC_58c83/fast && /home/aditya/miniconda3/envs/ros_env/bin/make  -f CMakeFiles/cmTC_58c83.dir/build.make CMakeFiles/cmTC_58c83.dir/build
+        make[1]: Entering directory '/home/aditya/Desktop/ROS/Marjanator/build/CMakeFiles/CMakeScratch/TryCompile-nLUYUg'
+        Building C object CMakeFiles/cmTC_58c83.dir/CheckFunctionExists.c.o
+        /home/aditya/miniconda3/envs/ros_env/bin/aarch64-conda-linux-gnu-cc   -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O3 -pipe -isystem /home/aditya/miniconda3/envs/ros_env/include -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_58c83.dir/CheckFunctionExists.c.o -c /home/aditya/Desktop/ROS/Marjanator/build/CMakeFiles/CMakeScratch/TryCompile-nLUYUg/CheckFunctionExists.c
+        Linking C executable cmTC_58c83
+        /home/aditya/miniconda3/envs/ros_env/bin/cmake -E cmake_link_script CMakeFiles/cmTC_58c83.dir/link.txt --verbose=1
+        /home/aditya/miniconda3/envs/ros_env/bin/aarch64-conda-linux-gnu-cc -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O3 -pipe -isystem /home/aditya/miniconda3/envs/ros_env/include -DCHECK_FUNCTION_EXISTS=pthread_create -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--allow-shlib-undefined -Wl,-rpath,/home/aditya/miniconda3/envs/ros_env/lib -Wl,-rpath-link,/home/aditya/miniconda3/envs/ros_env/lib -L/home/aditya/miniconda3/envs/ros_env/lib  -rdynamic CMakeFiles/cmTC_58c83.dir/CheckFunctionExists.c.o -o cmTC_58c83  -lpthread 
+        make[1]: Leaving directory '/home/aditya/Desktop/ROS/Marjanator/build/CMakeFiles/CMakeScratch/TryCompile-nLUYUg'
+        
+      exitCode: 0
+...

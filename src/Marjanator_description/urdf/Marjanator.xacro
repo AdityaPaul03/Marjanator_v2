@@ -1,0 +1,84 @@
+<?xml version="1.0" ?>
+<robot name="Marjanator" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+<xacro:include filename="$(find Marjanator_description)/urdf/materials.xacro" />
+<xacro:include filename="$(find Marjanator_description)/urdf/Marjanator.trans" />
+<xacro:include filename="$(find Marjanator_description)/urdf/Marjanator.gazebo" />
+<link name="base_link">
+  <inertial>
+    <origin xyz="-0.27246324190292237 -0.45680408027091235 0.20570441154971167" rpy="0 0 0"/>
+    <mass value="149.39437615610578"/>
+    <inertia ixx="13.196538" iyy="8.668981" izz="17.207546" ixy="-0.015443" iyz="-1.472982" ixz="-0.00915"/>
+  </inertial>
+  <visual>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Marjanator_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Marjanator_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="Propeller1_1">
+  <inertial>
+    <origin xyz="-3.1318831561488736e-07 -0.014685702964606584 1.7477086174111367e-08" rpy="0 0 0"/>
+    <mass value="0.06075710264716154"/>
+    <inertia ixx="1.7e-05" iyy="2.5e-05" izz="1.7e-05" ixy="-0.0" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.122222 0.571175 0.049" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Marjanator_description/meshes/Propeller1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.122222 0.571175 0.049" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Marjanator_description/meshes/Propeller1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="Propeller1_2">
+  <inertial>
+    <origin xyz="-3.1318843846106503e-07 -0.014685702961664604 1.7477086389217078e-08" rpy="0 0 0"/>
+    <mass value="0.06075710264716154"/>
+    <inertia ixx="1.7e-05" iyy="2.5e-05" izz="1.7e-05" ixy="-0.0" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.447222 0.571175 0.049" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Marjanator_description/meshes/Propeller1_2.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.447222 0.571175 0.049" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Marjanator_description/meshes/Propeller1_2.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<joint name="Revolute 6" type="continuous">
+  <origin xyz="-0.122222 -0.571175 -0.049" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="Propeller1_1"/>
+  <axis xyz="0.0 1.0 0.0"/>
+</joint>
+
+<joint name="Revolute 7" type="continuous">
+  <origin xyz="-0.447222 -0.571175 -0.049" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="Propeller1_2"/>
+  <axis xyz="0.0 1.0 0.0"/>
+</joint>
+
+</robot>
